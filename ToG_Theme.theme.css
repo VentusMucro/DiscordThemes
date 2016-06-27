@@ -1,0 +1,187 @@
+//META{"name":"ToG","description":"Tower of God Theme","author":"Ventus","version":"1.0"}*//
+
+/* Shinsoo Blue = #014090 */
+
+@import url(https://fonts.googleapis.com/css?family=Signika);
+
+/* Basic Appearence */
+body {
+    color:#e0e0e0;
+    font-family: 'Signika', serif;
+}
+.app {
+    background-image:url("https://i.imgur.com/W0YQ9ir.jpg");
+    background-size:100% 100%;
+}
+
+.guilds-wrapper, .channels-wrap, .title-wrap, .content {
+    background:rgba(50,50,50,0.4) !important;
+}
+
+.guild-channels, .chat, .help-container, .help-container:after, .account, .links, [data-reactid=".0.1.1.0.1.0.0"], .channel-members {
+    background: transparent!important;
+}
+
+.guild-header header {
+    background-color:transparent;
+}
+
+.guild-header ul{
+    transition: opacity .25s ease-out;
+    opacity:0;
+}
+
+.guild-header-open ul{
+    opacity:1;
+}
+
+/* Guilds */
+.active .guild-inner:before, .unread .guild-inner:before {
+    background:#014090!important;
+}
+
+/* Guild Channels */
+.channel.channel-text .channel-name, .guild-channels ul .channel a {
+    color:#014090!important;
+    opacity:1;
+}
+
+.guild-channels .unread:before {
+    background:#014090!important;
+}
+
+.channel.selected {
+    background:transparent!important;
+}
+
+.channel.selected:before {
+    border-left:4px solid #014090!important;
+}
+
+.channel:hover {
+    background:transparent!important;
+}
+
+.channel:hover:before {
+    border-left:4px solid #014090!important;
+}
+
+/* Tooltips */
+.tooltip {
+    background:#014090!important;
+    color:#e0e0e0!important;
+}
+
+.tooltip.tooltip-right:after {
+    border-right-color:#014090!important;
+}
+
+.tooltip.tooltip-top:after {
+    border-top-color:#014090!important;
+}
+
+.tooltip.tooltip-bottom:after {
+    border-bottom-color:#014090!important;
+}
+
+/* Chat */
+.divider span {
+    background:transparent!important;
+}
+
+.typing {
+    background:transparent!important;
+}
+
+.chat .new-messages-bar{
+  background-color:rgba(30,30,30,0.9)!important;
+}
+.chat .new-messages-bar:hover{
+  background-color:rgba(30,30,30,0.9)!important;
+}
+.new-messages-bar button{
+color:#e0e0e0!important;
+}
+
+/* Members */
+.channel-members h2 span {
+    color:#014090;
+    text-shadow:1px 1px 1px #111;
+    font-size: 15px !important;
+}
+
+.member-game {
+    color:#e0e0e0!important;
+}
+
+.channel-members .member:hover {
+    background:rgba(1,64,144,0.4)!important;
+}
+
+/*Voice Connection*/
+#voice-connection {
+    background:transparent;
+}
+
+/* Scrollbar */
+.chat>.content :first-child .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color:black!important;
+    border-color:#014090!important;
+}
+
+.chat>.content :first-child .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background:black!important;
+    border-color:#014090!important;
+}
+
+/* Twitchcord Button */
+#twitchcord-button {
+background-image: url(https://i.imgur.com/UsfTI19.png)!important;
+    background-color:transparent;
+}
+
+#twitchcord-button.twitchcord-button-open {
+background-image:url(https://i.imgur.com/UsfTI19.png)!important;
+    background-color:transparent;
+}
+
+/* Friends and Private Channels */
+.messages-wrapper, .friends-header, .friends-table-body, .friends-table, .private-channels {
+    background:transparent!important;
+}
+
+#friends {
+    background:rgba(50,50,50,0.4)!important;
+}
+
+.friends-row:hover {
+    background:rgba(0,0,0,0.25)!important;
+}
+
+/* Settings Menu */
+.settings .settings-inner, .user-settings-modal .settings-header, .settings-actions, .modal-inner{
+    background-color:#2a2a2a!important;
+    border:none!important;
+}
+
+.tab-bar.SIDE {
+    margin-right:0px!important;
+    overflow:hidden!important;
+    /*border-right:1px solid!important;*/
+    border-color:black!important;
+    box-shadow: 0 1px 0 rgba(0,0,0,.08),inset -1px 0 0 rgba(0,0,0,.1);
+}
+
+.tab-bar-header {
+    box-shadow: 0 1px 0 rgba(0,0,0,.08),inset 0 -1px 0 rgba(0,0,0,.1)!important;
+}
+
+.settings-right>.settings-inner .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color:black!important;
+    border-color:#2a2a2a!important;
+}
+
+.settings-right>.settings-inner .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background:black!important;
+    border-color:#2a2a2a!important;
+}
