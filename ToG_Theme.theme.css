@@ -1,6 +1,6 @@
-//META{"name":"ToG","description":"Tower of God Theme","author":"Ventus","version":"1.0"}*//
+//META{"name":"ToG","description":"Tower of God Theme","author":"Ventus","version":"2.0"}*//
 
-/* Shinsoo Blue = #014090 */
+/* Shinsoo Blue = #014090, rgba(1, 64, 144, 1)*/
 
 @import url(https://fonts.googleapis.com/css?family=Signika);
 
@@ -36,7 +36,7 @@ body {
 }
 
 /* Guilds */
-.active .guild-inner:before, .unread .guild-inner:before {
+.active .guild-inner:before, .unread .guild-inner:before, .guilds .unread:before, .guilds .selected:before {
     background:#014090!important;
 }
 
@@ -159,29 +159,156 @@ background-image:url(https://i.imgur.com/UsfTI19.png)!important;
 }
 
 /* Settings Menu */
-.settings .settings-inner, .user-settings-modal .settings-header, .settings-actions, .modal-inner{
-    background-color:#2a2a2a!important;
+.settings .settings-inner, .settings-actions, .modal-inner{
+    background-color:rgba(25, 25, 25, 0.82)!important;
     border:none!important;
 }
 
 .tab-bar.SIDE {
     margin-right:0px!important;
     overflow:hidden!important;
-    /*border-right:1px solid!important;*/
     border-color:black!important;
     box-shadow: 0 1px 0 rgba(0,0,0,.08),inset -1px 0 0 rgba(0,0,0,.1);
+    border-top-let-radius:5%;
+    border-bottom-left-radius:5%;
 }
 
 .tab-bar-header {
     box-shadow: 0 1px 0 rgba(0,0,0,.08),inset 0 -1px 0 rgba(0,0,0,.1)!important;
 }
 
+.settings.user-settings-modal .settings-header, .settings.user-settings-modal .settings-right {
+  background-color:transparent;
+}
+
 .settings-right>.settings-inner .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color:black!important;
-    border-color:#2a2a2a!important;
+    border-color:rgba(0, 0, 0, 0.4)!important;
 }
 
 .settings-right>.settings-inner .scroller-wrap ::-webkit-scrollbar-track-piece {
     background:black!important;
     border-color:#2a2a2a!important;
+}
+
+.modal-inner {
+  border-top-left-radius:5%;
+  border-bottom-left-radius:5%;
+}
+
+.scroller .connection .connection-integrations{
+  border:none!important;
+}
+
+/* User Profile */
+.user-popout .header {
+  background:rgba(1, 64, 144, 0.7);
+}
+
+.user-popout .body, .user-popout .footer {
+  background:rgba(30, 30, 30, 0.7);
+}
+
+.user-popout .footer .quick-message-wrapper .input {
+  background:rgba(0, 0, 0, 0.8);
+  color:#014090;
+}
+
+.user-popout .footer, .user-popout .quick-message-wrapper .input {
+  border-color:#014090!important;
+}
+
+.user-popout .user-popout-options .btn {
+  background-color:#014090;
+  boder:1px solid black;
+}
+
+.user-popout .user-popout-options .btn:hover {
+  background-color:rgb(1, 64, 144);
+}
+
+.user-popout .body .label, .user-popout .footer .update-notice .protip .label {
+  color:#014090;
+}
+
+.user-popout .footer .update-notice {
+    color: #e3e3e3 !important;
+}
+
+.user-popout .avatar-wrapper .avatar-popout {
+    background-color: transparent;
+    border: 4px solid #656565 !important;
+}
+
+.user-popout .avatar-wrapper .avatar-hint {
+    border-radius: 10% !important;
+}
+
+
+.channel-members .member.popout-open {
+    background: linear-gradient(90deg,rgba(1, 64, 144, 0.4) 85%,rgba(0, 0, 0 , 0))!important;
+}
+
+.context-menu {
+    background:rgba(30, 30, 30, 0.82);
+    box-shadow: 0 0 1px #656565,0 1px 4px #014090;
+}
+
+.context-menu .item:hover {
+    background: rgb(30, 30, 30);
+    color: hsl(214, 99%, 56%);
+}
+.context-menu .item {
+    color: #014090;
+}
+
+.context-menu .item.danger {
+    color: #014090!important;
+}
+
+.context-menu .item.danger:hover {
+    color: hsl(214, 99%, 56%)!important;
+    background-color: rgb(30, 30, 30)!important;
+}
+
+.context-menu .item.disabled {
+    color: #656565;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.context-menu .item.disabled:hover {
+    color: #fff;
+    background-color: rgb(30, 30, 30)!important;
+}
+
+.theme-dark.context-menu {
+    background:rgba(30, 30, 30, 0.82);
+    box-shadow: 0 0 1px #656565,0 1px 4px #014090;
+}
+
+.theme-dark.context-menu .item:hover {
+    background: rgb(30, 30, 30);
+    color: hsl(214, 99%, 56%);
+}
+.theme-dark.context-menu .item {
+    color: #014090;
+}
+
+.theme-dark.context-menu .item.danger {
+    color: #014090!important;
+}
+
+.theme-dark.context-menu .item.danger:hover {
+    color: hsl(214, 99%, 56%)!important;
+    background-color: rgb(30, 30, 30)!important;
+}
+
+.theme-dark.context-menu .item.disabled {
+    color: #656565;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark.context-menu .item.disabled:hover {
+    color: #fff;
+    background-color: rgb(30, 30, 30)!important;
 }
