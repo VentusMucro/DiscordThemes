@@ -103,6 +103,11 @@ body {
 color:#e0e0e0!important;
 }
 
+.avatar-large {
+  border-radius:5px;
+  border:2px solid #014090;
+}
+
 /* Members */
 .channel-members h2 span {
     color:#014090;
