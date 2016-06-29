@@ -1,4 +1,4 @@
-//META{"name":"Seki_Theme","description":"Theme based on the original character Seki by AnimeFlux.","author":"Ventus","version":"1.0"}*//
+//META{"name":"Seki_Theme","description":"Theme based on the original character Seki by AnimeFlux.","author":"CC edited by Ventus","version":"1.0"}*//
 
 /*
 Hex color for everything: #c15392
@@ -313,7 +313,7 @@ a:link {
     border-top: 1px solid #c15392;
 }
 .links:after {
-    content: "Ventus";
+    content: "CC edited by Ventus | Patreon.com/AnimeFlux";
     color: #5a5a5a;
     margin-left: 6px;
     font-weight: bold;
@@ -1134,7 +1134,7 @@ a:link {
     font-size: 14px;
 }
 .member-username-inner[data-reactid*="102180837625200640"]:after {
-    content: "Ventus";
+    content: "CC edited by Ventus | Patreon.com/AnimeFlux";
     color: #E81C4F;
     margin-left: 0px;
     font-weight: 900;

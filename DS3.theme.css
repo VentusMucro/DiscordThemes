@@ -1,4 +1,4 @@
-//META{"name":"DS3_Templar","description":"Dark Souls 3 Templar theme.","author":"Ventus","version":"1.0"}*//
+//META{"name":"DS3_Templar","description":"Dark Souls 3 Templar theme.","author":"CC edited by Ventus","version":"1.0"}*//
 
 /*
 Hex color for everything: #e0341e
@@ -313,7 +313,7 @@ a:link {
     border-top: 1px solid #e0341e;
 }
 .links:after {
-    content: "Ventus";
+    content: "CC edited by Ventus";
     color: #5a5a5a;
     margin-left: 6px;
     font-weight: bold;
@@ -1134,7 +1134,7 @@ a:link {
     font-size: 14px;
 }
 .member-username-inner[data-reactid*="102180837625200640"]:after {
-    content: "Ventus";
+    content: "CC edited by Ventus";
     color: #E81C4F;
     margin-left: 0px;
     font-weight: 900;
