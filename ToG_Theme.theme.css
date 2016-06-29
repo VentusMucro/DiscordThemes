@@ -1,4 +1,4 @@
-//META{"name":"ToG","description":"Tower of God Theme","author":"Ventus","version":"2.0"}*//
+//META{"name":"ToG","description":"Tower of God Theme","author":"Ventus","version":"2.1"}*//
 
 /* Shinsoo Blue = #014090, rgba(1, 64, 144, 1)*/
 
@@ -142,7 +142,7 @@ color:#e0e0e0!important;
     border-color:#014090!important;
 }
 
-/* Twitchcord Button */
+/* Twitchcord Button
 #twitchcord-button {
 background-image: url(https://i.imgur.com/UsfTI19.png)!important;
     background-color:transparent;
@@ -151,7 +151,7 @@ background-image: url(https://i.imgur.com/UsfTI19.png)!important;
 #twitchcord-button.twitchcord-button-open {
 background-image:url(https://i.imgur.com/UsfTI19.png)!important;
     background-color:transparent;
-}
+} */
 
 /* Friends and Private Channels */
 .messages-wrapper, .friends-header, .friends-table-body, .friends-table, .private-channels {
@@ -181,6 +181,10 @@ background-image:url(https://i.imgur.com/UsfTI19.png)!important;
     border-bottom-left-radius:5%;
 }
 
+.tab-bar.SIDE .tab-bar-item:before {
+  border-color:#014090;
+}
+
 .tab-bar-header {
     box-shadow: 0 1px 0 rgba(0,0,0,.08),inset 0 -1px 0 rgba(0,0,0,.1)!important;
 }
@@ -204,8 +208,85 @@ background-image:url(https://i.imgur.com/UsfTI19.png)!important;
   border-bottom-left-radius:5%;
 }
 
+.user-settings-modal-games {
+  background:rgb(25, 25, 25);
+  border-color:#014090;
+}
+
+.now-playing, .now-playing.no-detection {
+  background:rgb(30, 30, 30);
+}
+
+.user-settings-streamer-mode {
+  background:rgb(25, 25, 25);
+}
+
 .scroller .connection .connection-integrations{
   border:none!important;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+  background-color:#014090;
+  border-color:#014090;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
+  border-color:#e6e6e6;
+}
+
+.radio .radio-inner {
+  background:rgb(20, 20, 20);
+}
+
+.radio .radio-inner span:after {
+  background:#014090;
+}
+
+.form .control-group input[type=email], .form .control-group input[type=number], .form .control-group input[type=password], .form .control-group input[type=text], .form .control-group textarea {
+  border-radius:6px;
+  background-color:rgb(20, 20, 20);
+  border-color:#014090;
+  color:#e6e6e6;
+}
+
+.avatar-uploader .avatar-uploader-inner {
+  background-color:rgb(30, 30, 30);
+  border-color:#014090;
+}
+
+.tab-bar.TOP {
+  border-color:#e6e6e6;
+}
+
+.tab-bar.TOP .tab-bar-item {
+  color:#e6e6e6;
+}
+
+.tab-bar.TOP .tab-bar-item.selected {
+  color:#014090;
+  border-color:#014090;
+}
+
+.user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
+  background-color:rgb(30, 30, 30);
+  border-color:#014090;
+}
+
+.user-settings-modal-connections .user-settings-modal-connections-list {
+  box-shadow:0 -1px #014090;
+}
+
+.user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .name {
+  color:#e6e6e6;
+}
+
+.user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration {
+  background-color:rgb(35, 35, 35);
+  border-color:#014090;
+}
+
+.user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration .btn.btn-joined {
+  border-color:#014090;
 }
 
 /* User Profile */
@@ -319,4 +400,81 @@ background-image:url(https://i.imgur.com/UsfTI19.png)!important;
 .theme-dark.context-menu .item.disabled:hover {
     color: #fff;
     background-color: rgb(30, 30, 30)!important;
+}
+
+/* Upload Modal */
+.upload-modal {
+  background-color:rgb(30, 30, 30);
+}
+
+.upload-modal .inner {
+  border-color:#014090;
+  color:#e6e6e6;
+}
+
+.upload-modal .inner .file {
+  color:#e6e6e6;
+}
+
+.upload-modal .inner .comment .channel-textarea .channel-textarea-inner {
+  border-color:#014090;
+  background-color:rgb(35, 35, 35);
+}
+
+.upload-modal .inner .comment .channel-textarea .channel-textarea-inner textarea {
+  color:#e6e6e6;
+}
+
+.upload-modal .footer {
+  background-color:rgb(20, 20, 20);
+}
+
+.upload-drop-modal .bgScale {
+  background:rgb(30, 30, 30);
+}
+
+.upload-drop-modal .inner {
+  border-color:#014090;
+  color:#e6e6e6;
+}
+
+.upload-drop-modal .inner .instructions {
+  color:#e6e6e6;
+}
+
+/* Buttons */
+.upload-modal .footer .button {
+  background-color:transparent;
+  color:#e6e6e6;
+}
+
+.upload-modal .footer .button.button-primary {
+  color:#e6e6e6;
+  background-color:#014090;
+}
+
+.btn {
+  background-color:transparent!important;
+  color:#e6e6e6!important;
+}
+
+.btn.btn-primary {
+  color:#e6e6e6!important;
+  background-color:#014090!important;
+}
+
+/* Credit */
+.links:after {
+    content: "Ventus";
+    color: #5a5a5a;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.member-username-inner[data-reactid*="102180837625200640"]:after {
+    content: "Ventus";
+    color: #E81C4F;
+    margin-left: 0px;
+    font-weight: 900;
+    font-size: 120%;
 }
