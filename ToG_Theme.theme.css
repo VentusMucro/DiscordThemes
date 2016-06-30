@@ -1,4 +1,4 @@
-//META{"name":"ToG","description":"Tower of God Theme","author":"Ventus","version":"2.1"}*//
+//META{"name":"ToG","description":"Tower of God Theme","author":"Ventus","version":"2.2"}*//
 
 /* Shinsoo Blue = #014090, rgba(1, 64, 144, 1)*/
 
@@ -287,6 +287,56 @@ background-image:url(https://i.imgur.com/UsfTI19.png)!important;
 
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration .btn.btn-joined {
   border-color:#014090;
+}
+
+/*BD Menus*/
+#bd-customcss-attach-controls, #bd-customcss-detach-controls {
+  background:rgb(25, 25, 25);
+  -webkit-box-shadow: inset 0 1px 0 0 rgb(25, 25, 25);
+}
+
+#bd-customcss-attach-controls {
+  border:1px solid rgb(25, 25, 25);
+  border-top-color:#014090;
+}
+
+.CodeMirror {
+    font-family: monospace;
+    height: 300px;
+    color: #e6e6e6;
+    background-color:#1e1e1e !important;
+}
+.CodeMirror-linenumber {
+    color: #656565;
+}
+.CodeMirror-gutters {
+    background: #1e1e1e;
+    box-shadow: inset 0 1px 0 0 #1e1e1e;
+    border-right: 1px solid #014090!important;
+    border-left: 1px solid #014090!important;
+    background-color: #1e1e1e;
+}
+.CodeMirror-scroll {
+    border-top: 1px solid #014090!important;
+}
+.bda-slist li:nth-child(odd) {
+    background: rgb(30, 30, 30);
+    border-top: 1px solid #656565;
+}
+.bda-slist li {
+    background: rgb(25, 25, 25);
+    border-bottom: 1px solid #656565;
+}
+.bda-slist .bda-description {
+    color: #e6e6e6;
+    border-top: 1px solid #014090;
+}
+.bda-slist .bda-name {
+    color: #014090;
+}
+.bda-slist .checkbox:before {
+    content: "Enable";
+    color: #e6e6e6;
 }
 
 /* User Profile */
